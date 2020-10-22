@@ -1,0 +1,72 @@
+Hero: 
+<p>Hello</p>
+<div clasName="hero-btns">
+                <Button className="btns" buttonStyle="btn--outline"
+                    buttonSize="btn--large">
+                    GET STARTED
+                </Button>
+                <Button className="btns" buttonStyle="btn--primary"
+                    buttonSize="btn--large">
+                    WATCH
+                </Button>
+
+            </div>
+
+
+Navbar:  
+const showButton = () => {
+        if (window.innerWidth <= 960) {
+            setButton(false);
+        } else {
+            setButton(true);
+        }
+    };
+
+    useEffect(() => {
+        showButton()
+    }, [])
+
+ window.addEventListener("resize", showButton);
+
+{button && <Button buttonStyle="btn--outline">
+                        ABOUT
+                    </Button>}
+
+
+Cardss:
+  .cards_item_pic-wrap::after {
+    content: attr(data-category);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1f98f4;
+    box-sizing: border-box;
+  }
+
+
+
+  function AboutCard() {
+    return (
+        <div className="about-card" id="about">
+            <h1>About Me</h1>
+            <div className="about-card_container">
+
+                <ul className="about-card_item">
+                    <Card
+                        src="photos/hoco-photo.jpg"
+                        text="some info"
+                    />
+                </ul>
+
+            </div>
+
+        </div>
+    )
+}
+
+export default AboutCard
