@@ -49,7 +49,7 @@ function Cards() {
                             text="I had the chance to meet many astronauts, but I was most inspired by Sunita Williams' journey. "
                         />
                         <CardItem
-                            src="photos/fake-training.jpg"
+                            src="photos/fake-training-time.jpg"
                             text="On one of my many trips to the Space Vehicle Mockup Facility, I got to go through old shuttle
                             mockups to learn more about how they worked. "
                         />
