@@ -3,8 +3,6 @@ import Card from "./CardItem";
 import "./AboutCard.css";
 import resumeRuchiShah from "./resumeRuchiShah.pdf";
 
-
-
 function AboutCard() {
     return (
         <div className="about-card" id="about">
