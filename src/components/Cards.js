@@ -49,7 +49,7 @@ function Cards() {
                             text="I had the chance to meet many astronauts, but I was most inspired by Sunita Williams' journey. "
                         />
                         <CardItem
-                            src="photos/all-interns.png"
+                            src="photos/all-interns.jpg"
                             text="Throughout my internship, I was fortunate enough to meet incredibly accomplished individuals, both employees and interns alike. Pictured here are all
                             of the summer 2019 interns."
                         />
