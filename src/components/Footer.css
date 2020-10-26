@@ -7,6 +7,10 @@
     align-items: center;
   }
   
+  h3{
+    color: #E3CEF7;
+  }
+  
   .footer-stuff {
     display: flex;
     flex-direction: column;

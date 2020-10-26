@@ -5,9 +5,9 @@ function Footer() {
     return (
         <div className="footer-container">
             <section className="footer-stuff">
-                <p className="footer-heading">
+                <h3 className="footer-heading">
                     This website is still under development. Email me if you have any feedback!
-        </p>
+        </h3>
             </section>
             <div class="footer-links">
                 <div className="footer-link-wrapper">
