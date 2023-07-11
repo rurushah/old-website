@@ -12,8 +12,7 @@ function AboutCard() {
 
                     <div class="flexbox">
                         <img class="align-self" src="/photos/hoco-photo.jpg" alt="Photo of me" />
-                        <p>Hi, I'm Ruchi! I'm currently a senior at Stephen F. Austin High School, and I plan to major in computer science in college. I was born and
-                        raised in the Houston Area, in an extremely diverse community. I'm so excited to be graduating soon, and I can't wait to discover so many amazing places and opportunities.
+                        <p>Hi, I'm Ruchi! I'm currently a sophomopre at UT Austin majoring in CS and Math.
                             Feel free to check out my <a href={resumeRuchiShah} download="resumeRuchiShah.pdf">resume</a>.
                         </p>
                     </div>
