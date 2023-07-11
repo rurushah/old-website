@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectsCard.css";
-import resumeRuchiShah from "./resumeRuchiShah.pdf";
+import resumeRuchiShah from "./resume_ruchishah.pdf";
 
 function ProjectsCard() {
     return (
@@ -10,7 +10,7 @@ function ProjectsCard() {
                 <div className="projects-card_wrapper">
                     <ul className="projects-card_item">
                         <p>This section is still under construction!
-                        View my <a href={resumeRuchiShah} download="resumeRuchiShah.pdf">
+                        View my <a href={resumeRuchiShah} download="resume_ruchishah.pdf">
                                 resume</a> instead
                        </p>
                     </ul>

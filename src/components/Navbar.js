@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
-import resumeRuchiShah from "./resumeRuchiShah.pdf";
+import resumeRuchiShah from "./resume_ruchishah.pdf";
 import "./Navbar.css";
 import "./testDoc.pdf";
 
@@ -67,8 +67,8 @@ function Navbar() {
                                 onClick={closeMobileMenu}>Projects</Link>
                         </li>
                         <li className="nav-item">
-                            <a href={resumeRuchiShah} download="resumeRuchiShah.pdf" className="nav-links">
-                                Resume⭳ </a>
+                            <a href={resumeRuchiShah} download="resume_ruchishah.pdf" className="nav-links">
+                                Resume </a>
                         </li>
 
                     </ul>
